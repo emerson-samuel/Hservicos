@@ -470,7 +470,7 @@ section#top nav ul a:hover {
 
 /* --------------- pagina busca -----------------------------------*/
 
-
+/* codigo anterior!
 *{
 	margin: 0;
 	padding: 0;
@@ -507,4 +507,48 @@ cursor: pointer;
 
 #texto81:focus{
 	border: solid 2px #2f4550;
+}
+*/
+
+#pesquisar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #e8eaf6;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+#pesquisar .barra{
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: right;
+}
+
+.barra {
+    border: 1px solid;
+    background: white;
+}
+
+#pesquisar input{
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 1px;
+    font-size: 23px;
+    margin: 0px 1px 0px -36px;
+    width: 100%;
+    height: 45px;
+}
+
+#pesquisar a{
+	font-size: 40px;
+	color: #fff;
+	background: #001c37;
+	width: 50px;
+	height: 45px;
 }
