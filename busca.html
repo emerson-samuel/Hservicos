@@ -14,28 +14,14 @@
     <section id="top" class="bg-top">
       <header>
         <div class="navbar-fixed nav-wrapper">
-          <nav class="row">
-            <div  class= "col s8 m4 offset-m1 offset-l1 l3">
-              <a href="index.html"><img class="logo" src="imagens/logo.png" alt="Hserviços"></a>
+         <nav>
+            <!--Inicio Nav-->
+            <div class="nav-wrapper">
+               <a href="index.html" class="brand-logo center"><img class="logo" src="imagens/logo.png" alt="Hserviços"></a>
             </div>
-            <!-- .col -->
-            <div class="col s3 offset-s1 offset-m5 m2 l8">
-              <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="loginpri.html" class="modal-trigger">Entrar</a></li>
-                <!-- Links podem ser adicionado no #-->
-                <li><a href="login.html">Cadastra-se</a></li>
-              </ul>
-            </div>
-            <!-- .col -->
-          </nav>
+         </nav>
         </div>
         <!-- .navbar -->
-        <ul class="sidenav" id="mobile-menu">
-          <!-- menu mobile -->
-          <li><a href="loginpri.html" class="modal-trigger">Entrar</a></li>
-          <li><a href="login.html">Cadastra-se</a></li>
-        </ul>
       </header>
       <div id="info" class="container">
         <div class="row">
@@ -43,7 +29,7 @@
             <header>
               <h2>Uma plataforma para encontrar mão de obra qualificada!</h2>
             </header>
-            <p>Vamos encontrar um profissional mais próximo da sua região!</p>
+            <p>Vamos encontrar um profissional mais próximo da sua região.</p>
           </div>
           <!-- /col -->
         </div>
@@ -51,33 +37,26 @@
       </div>
       <!-- /info -->
     </section>
-    <!-- /section#top -->
-    <section class="comoFunciona">
+
+<!-- /section#pesquisa -->
+	<section id="pesquisar">
       <div class="container">
-        <header>
-          <h3>O que é nosso site?</h3>
-        </header>
-        <p>Aqui no nosso site você pode encontrar um profissional de diversas áreas como: Pedreiro, Jardineiro, Eletricista, Encanador, Pintor e muito mais. Você também pode fazer o orçamento da obra direto com o profissional pelo chat e tirar todas as suas dúvidas.</p>
-        <div class="row">
-          <div>
-            <header>
-              <h4>Como Funciona nosso Site?</h4>
-            </header>
-            <p>Para ter acesso aos serviços basta clicar no botão cadastre-se, e preencher os questionários e procurar o profissional que você deseja.</p>
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
+        <ul>
+          <li><h3>Digite qual profissional você procura</h3></li>
+          <li class="barra"><input type="search-new" placeholder="PROCURAR"><a href="#" class="material-icons">search</a></li>
+        </ul>
       </div>
-      <!-- /.container -->
     </section>
-    <!-- /section #comoFunciona -->
+<!-- /section#pesquisa -->
+
     <footer class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col s12 l5">
             <h5 class="white-text">Sobre</h5>
-            <p class="grey-text text-lighten-4">Nossa principal missão é intermediar o contato direto entre o cliente doméstico e o profissional disponível no mercado.</p>
+            <p class="grey-text text-lighten-4">Nossa principal missão é intermediar o contato direto
+              entre o cliente doméstico e o profissional disponível no mercado.
+            </p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Redes Sociais</h5>
@@ -96,7 +75,10 @@
         </div>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/auto.js"></script>
   </body>
