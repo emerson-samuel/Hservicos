@@ -5,7 +5,7 @@ body{
 /* formatacão da section top */
 
 section#top{ /* Atualização da logo*/
-	position: solid/
+	position: solid;
 	background-color: #e8eaf6;
 	height: auto; /*Trabalhar na imagem*/
 	padding-bottom: 32px;	
