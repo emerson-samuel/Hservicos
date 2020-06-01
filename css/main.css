@@ -299,7 +299,7 @@ section#top nav ul a:hover {
 	height: 32.7em; /*Trabalhar na imagem*/
 	padding-bottom: 32px;	
 	}
-	#top{
+	.bg-top{
 	background: url("../imagens/bgx375.png") no-repeat bottom;
 	height: 300px;
 	opacity: 4.0;
