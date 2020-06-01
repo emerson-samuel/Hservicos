@@ -356,6 +356,12 @@ section#top nav ul a:hover {
 	font-size: 1em;
 	font-weight: 800;
 	}
+	#social {
+    	width: 50%;
+    	margin-left: auto;
+    	left: auto;
+    	right: auto;
+	}
 }
 .avatar{
 	width: 300px;
