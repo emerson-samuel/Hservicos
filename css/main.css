@@ -310,12 +310,6 @@ section#top nav ul a:hover {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	}
-	.row .col.m4 {
-    	width: 100%;
-    	margin-left: auto;
-    	left: auto;
-    	right: auto;
-	}
 	h4{
 	font-size: 1em;
 	font-weight: 800;
@@ -347,12 +341,6 @@ section#top nav ul a:hover {
 	background-color: #e8eaf6;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	}
-	.row .col.m4 {
-    	width: 100%;
-    	margin-left: auto;
-    	left: auto;
-    	right: auto;
 	}
 	h4{
 	font-size: 1em;
