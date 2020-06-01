@@ -537,8 +537,6 @@ body{
 	margin: 60px auto;
 }
 
-
-
 #texto81{
 	width: 250px;
 	height: 40px;
@@ -559,3 +557,29 @@ cursor: pointer;
 #texto81:focus{
 	border: solid 2px #2f4550;
 }
+/*FORMATAÇÂO DAS REDES SOCIAIS*/
+
+div#social ul li{
+	width: 32px; height: 32px;
+	float: left;
+	margin-right: 15px;
+}
+
+div#social ul li a{
+	background-image: url("../imagens/sprite-social.png");
+	display: block;
+	height: inherit;
+	text-indent: -99999em;
+}
+
+div#social ul li:nth-child(1) a{background-position: 0 0;}
+div#social ul li:nth-child(2) a{background-position: -32px 0;}
+div#social ul li:nth-child(3) a{background-position: -64px 0;}
+div#social ul li:nth-child(4) a{background-position: -96px 0;}
+div#social ul li:nth-child(5) a{background-position: -128px 0;}
+
+div#social ul li:nth-child(1) a:hover{background-position: 0 -32px;}
+div#social ul li:nth-child(2) a:hover{background-position: -32px -32px;}
+div#social ul li:nth-child(3) a:hover{background-position: -64px -32px;}
+div#social ul li:nth-child(4) a:hover{background-position: -96px -32px;}
+div#social ul li:nth-child(5) a:hover{background-position: -128px -32px;}
