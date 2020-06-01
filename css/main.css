@@ -5,7 +5,6 @@ body{
 /* formatacão da section top */
 
 section#top{ /* Atualização da logo*/
-	position: solid;
 	background-color: #e8eaf6;
 	height: auto; /*Trabalhar na imagem*/
 	padding-bottom: 32px;	
@@ -264,7 +263,7 @@ h4{
 	margin: auto;
 }
 .bg-top{
-	background: url("../imagens/teste6.jpg") no-repeat bottom;
+	background: url("../imagens/bg-top.png") no-repeat bottom;
 	height: 300px;
 	opacity: 4.0;
 }
