@@ -335,6 +335,11 @@ section#top nav ul a:hover {
 	height: auto;
 	margin: auto;
 	}
+	.bg-top{
+	background: url("../imagens/bgx768.png") no-repeat bottom;
+	height: 300px;
+	opacity: 4.0;
+	}
 	section#top{
 	background-color: #483D8B;
 	height: 32.7em; /*Trabalhar na imagem*/
