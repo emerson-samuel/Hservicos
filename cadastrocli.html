@@ -1,155 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Hserviços</title>
-    <link rel="icon" href="imagens/icone_ie.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <section id="top" class="bg-top">
-      <header>
-        <div class="navbar-fixed nav-wrapper">
-          <nav>
-            <!--Inicio Nav-->
-            <div class="nav-wrapper">
-              <a href="index.html" class="brand-logo center"><img class="logo" src="imagens/logo.svg" alt="Hserviços"></a>
-            </div>
-          </nav>
-        </div>
-        <!-- .navbar -->
-      </header>
-      <div id="info" class="container">
-        <div class="row">
-          <div class="col s12 m12">
-            <header>
-              <h2>Uma plataforma para encontrar mão de obra qualificada!</h2>
-            </header>
-            <p>Vamos encontrar um profissional mais próximo da sua região.</p>
-          </div>
-          <!-- /col -->
-        </div>
-        <!-- /row -->
-      </div>
-      <!-- /info -->
-    </section>
-    <!-- /section#top -->
-    <center>
-      <section id="login">
-        <section id="log-pag" style="width: 50%;" >
-          <div class="login">
-            <form>
-              <div class="row">
-                <h3>Cadastro Cliente</h3>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Digite seu Nome" id="first_name" type="text" class="validate" required="required">
-                  <label for="nome_sobrenome">Nome Completo</label>
-                  <span class="helper-text" data-error="*Campo Obrigatorio"></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Digite seu CPF" id="first_name" type="text" class="validate" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required="required">
-                  <label for="cpf">CPF</label>
-                  <span class="helper-text" data-error="*CPF Invalido"></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <select id="estado" name="estado">
-                    <option value="" disabled selected>Selecionar Estado</option>
-                    <option value="Pernambuco">Pernambuco</option>
-                  </select>
-                  <label for="Estado">Estado</label>          
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <select id="cidade" name="cidade">
-                    <option value="" disabled selected>Selecionar Cidade</option>
-                    <option value="Recife" class="validate">Recife</option>
-                    <option value="Olinda" class="validate">Olinda</option>
-                    <option value="Paulista" class="validate">Paulista</option>
-                  </select>
-                  <label for="Cidade">Cidade</label>           
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Digite seu Endereço" id="endereco" type="text" class="validate" required="required">
-                  <label for="endereco">Endereço</label>
-                  <span class="helper-text" data-error="*Endereço Invalido"></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Ex:(81)99999-9999" id="telefone" type="tel" class="validate" pattern="\d{2}\d{5}\d{4}" required="required" maxlength="11">
-                  <label for="telefone">Telefone</label>
-                  <span class="helper-text" data-error="*Telefone Invalido"></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Digite seu E-mail" id="email" type="email" class="validate" required="required">
-                  <label for="email">E-mail</label>
-                  <span class="helper-text" data-error="*E-mail Invalido"></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input placeholder="Definir Senha de 6 a 12 caracteres" id="pass" type="password" class="validate" required="required" minlength="6" maxlength="12" >
-                  <label for="pass">Senha</label>
-                  <span class="helper-text" data-error="*Senha Invalida"></span>
-                </div>
-              </div>
-              <div class="row">
-                <p>Declaro Aceitar todos os termos de Uso.</p>
-                <p><label><input type="checkbox"/><span>Aceitar</span></label></p>
-                <a class="waves-effect waves-light btn-large" href="perfilcli.html" style="background-color: #001c37e0;">Cadastrar</a>
-              </div>
-            </form>
-          </div>
-        </section>
-      </section>
-    </center>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 l5">
-            <h5 class="white-text">Sobre</h5>
-            <p class="grey-text text-lighten-4">Nossa principal missão é intermediar o contato direto
-              entre o cliente doméstico e o profissional disponível no mercado.
-            </p>
-          </div>
-          <div id="social" class="col s12 m4 offset-12">
-            <header>
-              <h5>Redes Sociais</h5>
-            </header>
-            <ul>
-              <li><a href="#">facebook</a></li>
-              <li><a href="#">youtube</a></li>
-              <li><a href="#">twitter</a></li>
-              <li><a href="#">google plus</a></li>
-              <li><a href="#">instagram</a></li>
-            </ul>
-          </div>
-          <!--/col-->
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2020 Copyright hserviços mão de obra Especializada  
-        </div>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/auto.js"></script>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Hserviços</title>
+	<link rel="icon" href="imagens/icone_ie.ico">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<section id="top" class="bg-top">
+		<header>
+			<div class="navbar-fixed nav-wrapper">
+				<nav>
+					<!--Inicio Nav-->
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo center">
+							<img class="logo" src="imagens/logo.svg" alt="Hserviços">
+						</a>
+					</div>
+				</nav>
+			</div>
+			<!-- .navbar -->
+		</header>
+		<div id="info" class="container">
+			<div class="row">
+				<div class="col s12 m12">
+					<header>
+						<h2>Uma plataforma para encontrar mão de obra qualificada!</h2>
+					</header>
+					<p>Vamos encontrar um profissional mais próximo da sua região.</p>
+				</div>
+				<!-- /col -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /info -->
+	</section>
+	<!-- /section#top -->
+	<center>
+		<section id="login">
+			<section id="log-pag" style="width: 50%;">
+				<div class="login">
+					<form>
+						<div class="row">
+							<h3>Cadastro Cliente</h3>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Digite seu Nome" id="first_name" type="text" class="validate" required="required">
+								<label for="nome_sobrenome">Nome Completo</label> <span class="helper-text" data-error="*Campo Obrigatorio"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Digite seu CPF" id="first_name" type="text" class="validate" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required="required">
+								<label for="cpf">CPF</label> <span class="helper-text" data-error="*CPF Invalido"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<select id="estado" name="estado">
+									<option value="" disabled selected>Selecionar Estado</option>
+									<option value="Pernambuco">Pernambuco</option>
+								</select>
+								<label for="Estado">Estado</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<select id="cidade" name="cidade">
+									<option value="" disabled selected>Selecionar Cidade</option>
+									<option value="Recife" class="validate">Recife</option>
+									<option value="Olinda" class="validate">Olinda</option>
+									<option value="Paulista" class="validate">Paulista</option>
+								</select>
+								<label for="Cidade">Cidade</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Digite seu Endereço" id="endereco" type="text" class="validate" required="required">
+								<label for="endereco">Endereço</label> <span class="helper-text" data-error="*Endereço Invalido"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Ex:(81)99999-9999" id="telefone" type="tel" class="validate" pattern="\d{2}\d{5}\d{4}" required="required" maxlength="11">
+								<label for="telefone">Telefone</label> <span class="helper-text" data-error="*Telefone Invalido"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Digite seu E-mail" id="email" type="email" class="validate" required="required">
+								<label for="email">E-mail</label> <span class="helper-text" data-error="*E-mail Invalido"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field">
+								<input placeholder="Definir Senha de 6 a 12 caracteres" id="pass" type="password" class="validate" required="required" minlength="6" maxlength="12">
+								<label for="pass">Senha</label> <span class="helper-text" data-error="*Senha Invalida"></span>
+							</div>
+						</div>
+						<div class="row">
+							<p>Declaro Aceitar todos os termos de Uso.</p>
+							<p>
+								<label>
+									<input type="checkbox" /><span>Aceitar</span>
+								</label>
+							</p> <a class="waves-effect waves-light btn-large" href="perfilcli.html" style="background-color: #001c37e0;">Cadastrar</a>
+						</div>
+					</form>
+				</div>
+			</section>
+		</section>
+	</center>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 l5">
+					<h5 class="white-text">Sobre</h5>
+					<p class="grey-text text-lighten-4">Nossa principal missão é intermediar o contato direto entre o cliente doméstico e o profissional disponível no mercado.</p>
+				</div>
+				<div id="social" class="col s12 m4 offset-12">
+					<header>
+						<h5>Redes Sociais</h5>
+					</header>
+					<ul>
+						<li><a href="#">facebook</a>
+						</li>
+						<li><a href="#">youtube</a>
+						</li>
+						<li><a href="#">twitter</a>
+						</li>
+						<li><a href="#">google plus</a>
+						</li>
+						<li><a href="#">instagram</a>
+						</li>
+					</ul>
+				</div>
+				<!--/col-->
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">© 2020 Copyright hserviços mão de obra Especializada</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/auto.js"></script>
+</body>
+
 </html>
