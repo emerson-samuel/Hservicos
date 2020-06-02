@@ -3,35 +3,27 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+/* formatacão da top */
 
-
-/* formatacão da section top */
-
-section#top {
+#top {
 	/* Atualização da logo*/
 	background-color: #e8eaf6;
 	height: auto;
-	/*Trabalhar na imagem*/
 	padding-bottom: 32px;
 }
-
-section#top nav ul a {
+#top nav ul a {
 	margin-top: -3px;
 }
-
-section#top nav {
+#top nav {
 	background-color: #001c37e0;
 	padding: 1em;
 	height: 5.7em;
 }
-
-section#top nav ul li a {
+#top nav ul li a {
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
-
 /*------------------------------pesquisa edições---------------------------*/
 
 #pesquisar {
@@ -42,7 +34,6 @@ section#top nav ul li a {
 	padding-top: 4em;
 	padding-bottom: 4em;
 }
-
 #pesquisar .barra {
 	display: flex;
 	width: 50%;
@@ -52,12 +43,10 @@ section#top nav ul li a {
 	margin: auto;
 	text-align: right;
 }
-
 .barra {
 	border: 1px solid;
 	background: white;
 }
-
 #pesquisar input {
 	border: 0;
 	background: transparent;
@@ -69,7 +58,6 @@ section#top nav ul li a {
 	width: 100%;
 	height: 45px;
 }
-
 #pesquisar a {
 	font-size: 40px;
 	color: #fff;
@@ -77,34 +65,28 @@ section#top nav ul li a {
 	width: 50px;
 	height: 45px;
 }
-
-
 /*------------------------------servicos edições---------------------------*/
 
-section#servicos {
+#servicos {
 	padding: 20px;
 }
-
-section#servicos h2 {
+#servicos h2 {
 	display: flex;
 	justify-content: center;
 	font-size: 40px;
 	color: black;
 }
-
-section#servicos .avatar {
+#servicos .avatar {
 	width: auto;
 	height: auto;
 	border-radius: 0%;
 }
-
-section#servicos .collection .collection-item.avatar {
+#servicos .collection .collection-item.avatar {
 	min-height: 70px;
 	padding-left: 72px;
 	position: relative;
 }
-
-section#servicos .material-icons {
+#servicos .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
 	font-style: normal;
@@ -120,42 +102,34 @@ section#servicos .material-icons {
 	-moz-osx-font-smoothing: grayscale;
 	color: #001c37e0;
 }
-
-section#servicos .material-icons:hover {
+#servicos .material-icons:hover {
 	color: tomato;
 	transition: 0.5s;
 }
-
-section#servicos li {
+#servicos li {
 	color: #939393;
 }
-
-
 /*------------------------------rank edições---------------------------*/
 
-section#rank {
+#rank {
 	padding: 20px;
 }
-
-section#rank h2 {
+#rank h2 {
 	display: flex;
 	justify-content: center;
 	font-size: 40px;
 }
-
-section#rank .avatar {
+#rank .avatar {
 	width: auto;
 	height: auto;
 	border-radius: 0%;
 }
-
-section#rank .collection .collection-item.avatar {
+#rank .collection .collection-item.avatar {
 	min-height: 70px;
 	padding-left: 72px;
 	position: relative;
 }
-
-section#rank .material-icons {
+#rank .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
 	font-style: normal;
@@ -171,128 +145,102 @@ section#rank .material-icons {
 	-moz-osx-font-smoothing: grayscale;
 	color: #001c37e0;
 }
-
-section#rank .material-icons:hover {
+#rank .material-icons:hover {
 	color: tomato;
 	transition: 0.5s;
 }
-
-section#rank p {
+#rank p {
 	color: #939393;
 }
-
-
 /*------------------------------perfi edições---------------------------*/
 
-section#perfil {
+#perfil {
 	background-color: #e8eaf6;
 	padding-top: 4em;
 	padding-bottom: 4em;
 	text-align: center;
 }
-
 ul#list-menu {
 	display: flex;
 	justify-content: center;
 }
-
 ul#list-menu li {
 	padding-left: 2px;
 }
-
-section#perfil .btn-large {
+#perfil .btn-large {
 	background-color: #001c37;
 }
-
-
 /* --------------- pagina geral edições -----------------------------------*/
 
-div#info {
+#info {
 	color: #fff;
 	margin-top: 6em;
 }
-
-section#login {
+#login {
 	background-color: #e8eaf6;
 	padding-top: 4em;
 	padding-bottom: 4em;
 }
-
-section#login .btn-large {
+#login .btn-large {
 	background-color: #001c37;
 }
-
-div#info h2 {
+#info h2 {
 	font-weight: bold;
 }
-
-div#info p {
+#info p {
 	font-size: 23px;
 	font-weight: 300;
 }
+/* formatacao da  comoFunciona */
 
-
-/* formatacao da section comoFunciona */
-
-section.comoFunciona {
+.comoFunciona {
 	font-size: 19px;
 	color: #757575;
 	background-color: #e8eaf6;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-
-section.comoFunciona h4,
+.comoFunciona h4,
 h3 {
 	color: #4a535a;
 	text-transform: uppercase;
 }
-
 h3 {
 	font-size: 1.4em;
 	font-weight: 800;
 }
-
 h4 {
 	font-size: 1.3em;
 	font-weight: 800;
 }
-
 .footer-copyright {
 	text-align: center;
 }
-
-
 /* classes */
 
 .log-pag {
 	background-color: #e8eaf6;
 }
-
 .logo {
 	/* Tamanho reduzido a 50% */
 	width: 160px;
 	height: auto;
 	margin: auto;
 }
-
 .bg-top {
 	background: url("../imagens/bg-top.png") no-repeat bottom;
 	height: 300px;
 	opacity: 4.0;
 }
-
 .page-footer {
 	padding-top: 20px;
 	color: #fff;
 	background-color: #001C37;
 }
-
-section#top nav ul a:hover {
+#top nav ul a:hover {
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 5px;
 }
-
 @media screen and (max-width: 375px) {
 	h2 {
 		font-size: 2.7em;
@@ -307,7 +255,7 @@ section#top nav ul a:hover {
 		height: auto;
 		margin: auto;
 	}
-	section#top {
+	#top {
 		background-color: #483D8B;
 		height: 32.7em;
 		/*Trabalhar na imagem*/
@@ -318,11 +266,11 @@ section#top nav ul a:hover {
 		height: 300px;
 		opacity: 4.0;
 	}
-	div#info {
+	#info {
 		color: #fff;
 		margin-top: 2em;
 	}
-	section.comoFunciona {
+	.comoFunciona {
 		font-size: 16px;
 		color: #757575;
 		background-color: #e8eaf6;
@@ -334,7 +282,6 @@ section#top nav ul a:hover {
 		font-weight: 800;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	h2 {
 		font-size: 2.7em;
@@ -354,13 +301,13 @@ section#top nav ul a:hover {
 		height: 300px;
 		opacity: 4.0;
 	}
-	section#top {
+	#top {
 		background-color: #483D8B;
 		height: 32.7em;
 		/*Trabalhar na imagem*/
 		padding-bottom: 32px;
 	}
-	section.comoFunciona {
+	.comoFunciona {
 		font-size: 16px;
 		color: #757575;
 		background-color: #e8eaf6;
@@ -378,14 +325,11 @@ section#top nav ul a:hover {
 		right: auto;
 	}
 }
-
 .avatar {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 }
-
-
 /* --------------- Edição chat -----------------------------------*/
 
 * {
@@ -394,7 +338,6 @@ section#top nav ul a:hover {
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-
 .chat {
 	display: flex;
 	flex-direction: column;
@@ -402,12 +345,10 @@ section#top nav ul a:hover {
 	background: #f1f0e8;
 	border-radius: 5px;
 }
-
 .chat-header {
 	display: flex;
 	cursor: pointer;
 }
-
 .profile {
 	width: 100%;
 	background: #001c37e0;
@@ -418,14 +359,12 @@ section#top nav ul a:hover {
 	position: relative;
 	border-radius: 5px;
 }
-
 .profile .pp {
 	width: 75px;
 	display: inline-block;
 	border-radius: 50%;
 	margin-left: 32px;
 }
-
 .profile h2 {
 	display: inline-block;
 	line-height: 60px;
@@ -433,7 +372,6 @@ section#top nav ul a:hover {
 	color: #fff;
 	font-size: 20px;
 }
-
 .profile span {
 	color: #ccc;
 	position: absolute;
@@ -441,11 +379,9 @@ section#top nav ul a:hover {
 	left: 100px;
 	font-size: 14px;
 }
-
 .profile .left {
 	flex: 1;
 }
-
 .chat-box {
 	background: url('../img/bg.jpeg');
 	background-attachment: fixed;
@@ -453,27 +389,21 @@ section#top nav ul a:hover {
 	overflow-y: scroll;
 	flex: 1;
 }
-
 .chat-box .img_chat {
 	width: 280px;
 }
-
 .chat-r {
 	display: flex;
 }
-
 .chat-r .sp {
 	flex: 1;
 }
-
 .chat-l {
 	display: flex;
 }
-
 .chat-l .sp {
 	flex: 1;
 }
-
 .chat-box .mess {
 	max-width: 300px;
 	background: #F7FCF6;
@@ -482,42 +412,33 @@ section#top nav ul a:hover {
 	margin: 20px 0px;
 	cursor: pointer;
 }
-
 .chat-box .mess p {
 	word-break: break-all;
 	font-size: 18px;
 }
-
 .chat-box .mess-r {
 	background: #ADD8E6;
 }
-
 .chat-box .check {
 	float: right;
 }
-
 .chat-box .check span {
 	color: #888;
 	font-size: 12px;
 	font-weight: 700px;
 }
-
 *::-webkit-scrollbar {
 	width: 5px;
 }
-
 *::-webkit-scrollbar-track {
 	background: #f1f1f1;
 }
-
 *::-webkit-scrollbar-thumb {
 	background: #aaa;
 }
-
 *::-webkit-scrollbar-thumb:hover {
 	background: #555;
 }
-
 .chat-footer {
 	display: flex;
 	justify-content: center;
@@ -526,7 +447,6 @@ section#top nav ul a:hover {
 	position: relative;
 	cursor: pointer;
 }
-
 .chat-footer textarea {
 	display: block;
 	flex: 1;
@@ -543,7 +463,6 @@ section#top nav ul a:hover {
 	color: #555;
 	resize: none;
 }
-
 .chat-footer .emo {
 	display: block;
 	width: 35px;
@@ -552,111 +471,58 @@ section#top nav ul a:hover {
 	left: 10px;
 	top: 12px;
 }
-
 .chat-footer .icons {
 	position: absolute;
 	right: 100px;
 	top: 10px;
 }
-
 .chat-footer .icons img {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	margin-left: 5px;
 }
-
-
-/* --------------- pagina busca -----------------------------------*/
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	background-color: #f9f9f9;
-}
-
-.pesquisa1 {
-	width: 315px;
-	height: 40px;
-	margin: 60px auto;
-}
-
-#texto81 {
-	width: 250px;
-	height: 40px;
-	float: left;
-	font-family: "Arial";
-	font-size: 20px;
-}
-
-.btn9 {
-	width: 40px;
-	height: 40px;
-	background-color: #2f4550;
-	padding: 5px 10px;
-	cursor: pointer;
-}
-
-#texto81:focus {
-	border: solid 2px #2f4550;
-}
-
-
 /*FORMATAÇÂO DAS REDES SOCIAIS*/
 
-div#social ul li {
+#social ul li {
 	width: 32px;
 	height: 32px;
 	float: left;
 	margin-right: 15px;
 }
-
-div#social ul li a {
+#social ul li a {
 	background-image: url("../imagens/sprite-social.png");
 	display: block;
 	height: inherit;
 	text-indent: -99999em;
 }
-
-div#social ul li:nth-child(1) a {
+#social ul li:nth-child(1) a {
 	background-position: 0 0;
 }
-
-div#social ul li:nth-child(2) a {
+#social ul li:nth-child(2) a {
 	background-position: -32px 0;
 }
-
-div#social ul li:nth-child(3) a {
+#social ul li:nth-child(3) a {
 	background-position: -64px 0;
 }
-
-div#social ul li:nth-child(4) a {
+#social ul li:nth-child(4) a {
 	background-position: -96px 0;
 }
-
-div#social ul li:nth-child(5) a {
+#social ul li:nth-child(5) a {
 	background-position: -128px 0;
 }
-
-div#social ul li:nth-child(1) a:hover {
+#social ul li:nth-child(1) a:hover {
 	background-position: 0 -32px;
 }
-
-div#social ul li:nth-child(2) a:hover {
+#social ul li:nth-child(2) a:hover {
 	background-position: -32px -32px;
 }
-
-div#social ul li:nth-child(3) a:hover {
+#social ul li:nth-child(3) a:hover {
 	background-position: -64px -32px;
 }
-
-div#social ul li:nth-child(4) a:hover {
+#social ul li:nth-child(4) a:hover {
 	background-position: -96px -32px;
 }
-
-div#social ul li:nth-child(5) a:hover {
+#social ul li:nth-child(5) a:hover {
 	background-position: -128px -32px;
 }
