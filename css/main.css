@@ -279,6 +279,47 @@ section#top nav ul a:hover {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 360px){
+	h2{
+		font-size: 2.7em;
+		margin: 0 0 0 0;
+	}
+	h3{
+	font-size: 1em;
+	font-weight: 800;
+	}
+	.logo{
+	width: 160px;
+	height: auto;
+	margin: auto;
+	}
+	section#top{
+	background-color: #483D8B;
+	height: 32.7em; /*Trabalhar na imagem*/
+	padding-bottom: 32px;	
+	}
+	#top{
+	background: url("../imagens/bgx375.png") no-repeat bottom;
+	height: 300px;
+	opacity: 4.0;
+	}
+	div#info{
+	color: #fff;
+	margin-top: 2em;
+	}
+	section.comoFunciona{
+	font-size: 16px;
+	color: #757575;
+	background-color: #e8eaf6;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+	h4{
+	font-size: 1em;
+	font-weight: 800;
+	}
+}
+
 @media screen and (max-width: 375px){
 	h2{
 		font-size: 2.7em;
