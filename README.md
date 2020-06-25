@@ -5,4 +5,5 @@ Com objetivo de aprendizagem.
 
 :page_with_curl:Projeto - Criação da Pagina Hserviços Utilizados o | Html | Css | javaScript.
 
-![Dashboard](https://imgur.com/778a78n "Dashboard")
+
+![Dashboard](https://i.imgur.com/778a78n.png "Dashboard")
